@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  MainViewController.m
 //  iOSCoco2dXApp
 //
 //  Created by Ngoc Tuan Le on 10/10/17.
 //  Copyright © 2017 LifeOfCoder. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
