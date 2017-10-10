@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#include "cocos2d.h"
 
 @interface AppDelegate ()
 
