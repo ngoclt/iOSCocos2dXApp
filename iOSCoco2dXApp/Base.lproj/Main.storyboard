@@ -12,9 +12,8 @@
         <!--Navigation Controller-->
         <scene sceneID="raf-5Q-TIc">
             <objects>
-                <navigationController id="92p-BX-8Eh" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="92p-BX-8Eh" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VZ5-XS-YjK">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -43,6 +42,9 @@
                                 <state key="normal" title="Open Game">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="txp-Yx-Xuv" kind="show" id="BNT-yu-uER"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -53,9 +55,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="H5V-zC-j6W"/>
-                    <connections>
-                        <segue destination="txp-Yx-Xuv" kind="show" id="ovB-Mx-Odv"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,6 +70,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="ysB-e0-2wH"/>
                     </view>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rEP-kt-viw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C76782F1F9695C100D91931 /* Cocos2dXGameController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D5531F8D654300778844 /* Cocos2dXGameController.mm */; };
+		4C7678361F96995600D91931 /* CCAppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7678351F9698A000D91931 /* CCAppDelegate.cpp */; };
+		4C7678371F96995A00D91931 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C7678341F9698A000D91931 /* HelloWorldScene.cpp */; };
 		4C92D5281F8D63D800778844 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D5271F8D63D800778844 /* AppDelegate.mm */; };
 		4C92D52B1F8D63D800778844 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D52A1F8D63D800778844 /* MainViewController.m */; };
 		4C92D52E1F8D63D800778844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C92D52C1F8D63D800778844 /* Main.storyboard */; };
@@ -14,7 +17,7 @@
 		4C92D5331F8D63D800778844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C92D5311F8D63D800778844 /* LaunchScreen.storyboard */; };
 		4C92D5361F8D63D800778844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D5351F8D63D800778844 /* main.m */; };
 		4C92D5401F8D63D800778844 /* iOSCoco2dXAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D53F1F8D63D800778844 /* iOSCoco2dXAppTests.m */; };
-		4C92D54C1F8D646000778844 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D54B1F8D646000778844 /* GameViewController.m */; };
+		4C92D54C1F8D646000778844 /* GameViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C92D54B1F8D646000778844 /* GameViewController.mm */; };
 		4C92D5571F8D6F6200778844 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C92D5561F8D6F6200778844 /* CoreText.framework */; };
 		4C92D55B1F8D6F9D00778844 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C92D55A1F8D6F9D00778844 /* Security.framework */; };
 		4C92D55D1F8D6FAA00778844 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C92D55C1F8D6FA900778844 /* CoreMotion.framework */; };
@@ -63,6 +66,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C7678321F9698A000D91931 /* CCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CCAppDelegate.h; path = ../../../LifeOfCoder/Classes/CCAppDelegate.h; sourceTree = "<group>"; };
+		4C7678331F9698A000D91931 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = ../../../LifeOfCoder/Classes/HelloWorldScene.h; sourceTree = "<group>"; };
+		4C7678341F9698A000D91931 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = ../../../LifeOfCoder/Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		4C7678351F9698A000D91931 /* CCAppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CCAppDelegate.cpp; path = ../../../LifeOfCoder/Classes/CCAppDelegate.cpp; sourceTree = "<group>"; };
+		4C7678421F969EE900D91931 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		4C7678431F969EE900D91931 /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
 		4C92D5231F8D63D800778844 /* iOSCoco2dXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoco2dXApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C92D5261F8D63D800778844 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C92D5271F8D63D800778844 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
@@ -77,9 +86,9 @@
 		4C92D53F1F8D63D800778844 /* iOSCoco2dXAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCoco2dXAppTests.m; sourceTree = "<group>"; };
 		4C92D5411F8D63D800778844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C92D54A1F8D646000778844 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		4C92D54B1F8D646000778844 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		4C92D54B1F8D646000778844 /* GameViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = GameViewController.mm; sourceTree = "<group>"; };
 		4C92D5521F8D654300778844 /* Cocos2dXGameController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cocos2dXGameController.h; sourceTree = "<group>"; };
-		4C92D5531F8D654300778844 /* Cocos2dXGameController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cocos2dXGameController.m; sourceTree = "<group>"; };
+		4C92D5531F8D654300778844 /* Cocos2dXGameController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Cocos2dXGameController.mm; sourceTree = "<group>"; };
 		4C92D5561F8D6F6200778844 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		4C92D5581F8D6F8200778844 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		4C92D55A1F8D6F9D00778844 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -129,6 +138,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C7678311F96988100D91931 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4C7678391F969ECD00D91931 /* Resources */,
+				4C7678351F9698A000D91931 /* CCAppDelegate.cpp */,
+				4C7678321F9698A000D91931 /* CCAppDelegate.h */,
+				4C7678341F9698A000D91931 /* HelloWorldScene.cpp */,
+				4C7678331F9698A000D91931 /* HelloWorldScene.h */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4C7678391F969ECD00D91931 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C7678421F969EE900D91931 /* fonts */,
+				4C7678431F969EE900D91931 /* res */,
+			);
+			name = Resources;
+			path = ../../../LifeOfCoder/Resources;
+			sourceTree = "<group>";
+		};
 		4C92D51A1F8D63D800778844 = {
 			isa = PBXGroup;
 			children = (
@@ -151,12 +182,13 @@
 		4C92D5251F8D63D800778844 /* iOSCoco2dXApp */ = {
 			isa = PBXGroup;
 			children = (
+				4C7678311F96988100D91931 /* Game */,
 				4C92D5261F8D63D800778844 /* AppDelegate.h */,
 				4C92D5271F8D63D800778844 /* AppDelegate.mm */,
 				4C92D5291F8D63D800778844 /* MainViewController.h */,
 				4C92D52A1F8D63D800778844 /* MainViewController.m */,
 				4C92D54A1F8D646000778844 /* GameViewController.h */,
-				4C92D54B1F8D646000778844 /* GameViewController.m */,
+				4C92D54B1F8D646000778844 /* GameViewController.mm */,
 				4C92D5511F8D654300778844 /* Coco2dXGameController */,
 				4C92D52C1F8D63D800778844 /* Main.storyboard */,
 				4C92D52F1F8D63D800778844 /* Assets.xcassets */,
@@ -181,7 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				4C92D5521F8D654300778844 /* Cocos2dXGameController.h */,
-				4C92D5531F8D654300778844 /* Cocos2dXGameController.m */,
+				4C92D5531F8D654300778844 /* Cocos2dXGameController.mm */,
 			);
 			path = Coco2dXGameController;
 			sourceTree = "<group>";
@@ -349,7 +381,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C92D54C1F8D646000778844 /* GameViewController.m in Sources */,
+				4C92D54C1F8D646000778844 /* GameViewController.mm in Sources */,
+				4C76782F1F9695C100D91931 /* Cocos2dXGameController.mm in Sources */,
+				4C7678371F96995A00D91931 /* HelloWorldScene.cpp in Sources */,
+				4C7678361F96995600D91931 /* CCAppDelegate.cpp in Sources */,
 				4C92D52B1F8D63D800778844 /* MainViewController.m in Sources */,
 				4C92D5361F8D63D800778844 /* main.m in Sources */,
 				4C92D5281F8D63D800778844 /* AppDelegate.mm in Sources */,

@@ -8,10 +8,14 @@
 //
 
 #ifdef __OBJC__
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #endif
 
 #ifdef __cplusplus
 #include "cocos2d.h"
 #endif
 
+
+#define TVNotificationAppBackToForeground                       @"TVNotificationAppBackToForeground"
+#define TVNotificationAppIsInBackground                         @"TVNotificationAppIsInBackground"

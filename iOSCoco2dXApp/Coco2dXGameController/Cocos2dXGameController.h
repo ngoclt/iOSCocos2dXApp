@@ -8,6 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Cocos2dXGameController : NSObject
+
+@class Cocos2dXGameController;
+
+@protocol Cocos2dXGameControllerDelegate <NSObject>
+
+- (void)backToAppFromGameController:(Cocos2dXGameController *)gameController;
 
 @end
+
+@interface Cocos2dXGameController : NSObject
+
+@property (nonatomic, strong) UIView *view;
+@property (nonatomic, weak) id<Cocos2dXGameControllerDelegate> delegate;
+
+- (instancetype)initWithFrame:(CGRect)frame;
+
+- (void)backToApp;
+
+@end
+
